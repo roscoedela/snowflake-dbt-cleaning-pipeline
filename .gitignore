@@ -7,7 +7,7 @@ __pycache__/
 cpm_dbt_demo/target/
 cpm_dbt_demo/logs/
 cpm_dbt_demo/dbt_packages/
-
+logs/
 # Env / secrets
 .env
 profiles.yml
