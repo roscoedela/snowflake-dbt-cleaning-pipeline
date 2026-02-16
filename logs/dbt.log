@@ -1,0 +1,34 @@
+[0m12:02:56.922873 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10433a010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f30990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f53710>]}
+
+
+============================== 12:02:56.928009 | 3cef6fc9-cae5-428c-a4fc-f6c58fdb9fd1 ==============================
+[0m12:02:56.928009 [info ] [MainThread]: Running with dbt=1.11.4
+[0m12:02:56.928503 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'use_colors': 'True', 'log_format': 'default', 'target_path': 'None', 'partial_parse': 'True', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'None', 'introspect': 'True', 'no_print': 'None', 'invocation_command': 'dbt init cpm_dbt_demo', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'version_check': 'True', 'quiet': 'False', 'static_parser': 'True', 'warn_error': 'None', 'profiles_dir': '/Users/rooscolrozambert/.dbt', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'printer_width': '80'}
+[0m12:02:56.941412 [info ] [MainThread]: Creating dbt configuration folder at /Users/rooscolrozambert/.dbt
+[0m12:02:56.942863 [debug] [MainThread]: Starter project path: /Users/rooscolrozambert/cpm-dbt/.venv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m12:02:56.985495 [info ] [MainThread]: 
+Your new dbt project "cpm_dbt_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:02:56.986363 [info ] [MainThread]: Setting up your profile.
+[0m12:04:08.064631 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m12:04:08.065590 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m12:04:08.065768 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m12:12:42.085187 [info ] [MainThread]: Profile cpm_dbt_demo written to /Users/rooscolrozambert/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:12:42.195305 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 395.68878, "process_in_blocks": "0", "process_kernel_time": 0.353444, "process_mem_max_rss": "116736000", "process_out_blocks": "0", "process_user_time": 0.940129}
+[0m12:12:42.219304 [debug] [MainThread]: Command `dbt init` succeeded at 12:12:42.218265 after 395.72 seconds
+[0m12:12:42.225149 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f53e10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ed1a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102636a10>]}
+[0m12:12:42.227318 [debug] [MainThread]: Flushing usage events
+[0m12:12:42.502886 [debug] [MainThread]: An error was encountered while trying to flush usage events

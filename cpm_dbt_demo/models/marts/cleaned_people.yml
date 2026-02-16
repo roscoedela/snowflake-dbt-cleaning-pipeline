@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: cleaned_people
+    description: "Cleaned people records from stg_skill_assessment_raw"
+
+    columns:
+      - name: record_id
+        tests:
+          - not_null
+          - unique
+
+
+      - name: email
+        description: "Lowercased email; blank if invalid."
+      - name: phone
+        description: "US phone formatted as (xxx) xxx - xxxx; blank if invalid."
+      - name: state
+        description: "2-letter US state code; blank if unknown/invalid."
+      - name: zip
+        description: "5-digit zip; blank if unknown/invalid."

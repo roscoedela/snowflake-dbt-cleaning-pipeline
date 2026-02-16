@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# dbt artifacts (do NOT commit)
+cpm_dbt_demo/target/
+cpm_dbt_demo/logs/
+cpm_dbt_demo/dbt_packages/
+
+# Env / secrets
+.env
+profiles.yml
+
+# macOS
+.DS_Store
+

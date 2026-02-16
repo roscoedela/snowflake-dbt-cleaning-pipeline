@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    database: CPM_DEMO
+    schema: RAW
+    tables:
+      - name: skill_assessment_raw
